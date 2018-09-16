@@ -1,0 +1,31 @@
+; ----------------------------
+; example
+; ----------------------------
+
+pop
+
+push double(42) ; float
+
+push Int32(33)
+
+add
+
+push float(44.55)
+
+mul
+
+push double(42.42)
+push int32(42)
+
+dump
+
+pop
+
+assert double(42.42)
+
+mod
+
+push double(123.654654654445)
+push int8(129); privet
+dump
+exit

@@ -1,0 +1,35 @@
+; ----------------------------
+; example
+; ----------------------------
+
+pop
+
+push double(15) ; float
+
+push int32(33)
+min
+full_dump
+push int32(31)
+full_dump
+max
+
+push float(44.55)
+
+full_dump
+assert int8(13)
+push double(42)
+mul
+full_dump
+push int32(42)
+
+last
+
+pop
+
+push double(42.42)
+
+power
+
+push double(123.654654654445)
+push int8(129); privet
+full_dump
